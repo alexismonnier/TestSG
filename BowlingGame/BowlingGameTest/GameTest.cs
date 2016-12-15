@@ -1,19 +1,11 @@
-﻿using System;
+﻿using BowlingGame;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BowlingGame;
 
 namespace BowlingGameTest
 {
     [TestClass]
     public class GameTest
     {
-        //private TestContext TestContextInstance;
-        //public TestContext TestContext
-        //{
-        //    get { return TestContextInstance; }
-        //    set { TestContextInstance = value; }
-        //}
-
         private Game g;
 
         [TestInitialize]
@@ -116,6 +108,5 @@ namespace BowlingGameTest
                 g.Roll(pins);
             }
         }
-
     }
 }
